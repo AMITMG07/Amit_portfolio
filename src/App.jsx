@@ -1,7 +1,7 @@
 import React from "react";
 import confetti from "canvas-confetti";
 import User from './assets/Amit.jpg';
-import Exp1 from './assets/Merkle.jpg';
+import Exp from './assets/Merkle.jpg';
 import { ConfettiButton } from "@/components/magicui/confetti";
 import BlurFade from "@/components/magicui/blur-fade";
 
@@ -82,7 +82,7 @@ function App() {
           <div className="mt-6">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-3">
-                <img src={Exp1} className="h-12 rounded-full" alt="Merkle" />
+                <img src={Exp} className="h-12 rounded-full" alt="Merkle" />
                 <div>
                   <h2 className="text-sm">Merkle, a dentsu company</h2>
                   <p className="text-xs">Analyst</p>
