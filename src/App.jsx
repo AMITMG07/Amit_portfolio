@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-    
+<section className="mt-12 w[700px] mx-auto ">    
       <BlurFade delay={0.5} inView>
         <section className="mt-12 max-w-2xl mx-auto">
           <div className="flex gap-14 items-center">
@@ -48,18 +48,18 @@ function App() {
               Analyst by profession, designer at heart.
             </span>
             After completing both a diploma and a degree in Computer Science
-            Engineering, I started my career in{" "}
-            <span className="font-medium text-gray-900">2021</span> with{" "}
-            <span className="font-semibold text-blue-600">Dentsu</span> as an
-            Associate Analyst. I worked extensively with tools like{" "}
-            <span className="font-semibold text-blue-600">Decipher</span>,{" "}
+            Engineering, I started my career in
+            <span className="font-medium text-gray-900">2021</span> with
+            <span className="font-semibold text-blue-600">Ugam Solutions and currently work at Merkle (a dentsu company)</span> as an
+            Associate Analyst. I worked extensively with tools like
+            <span className="font-semibold text-blue-600">Decipher</span>,
             <span className="font-semibold text-blue-600">SurveyToGo</span>, and
-            later transitioned to{" "}
+            later transitioned to
             <span className="font-semibold text-blue-600">Qualtrics</span> as a
             Survey Programmer.
             <br />
             <br />
-            Over time, I discovered my true passion lies in{" "}
+            Over time, I discovered my true passion lies in
             <span className="font-semibold text-pink-600">web design</span>
             —where creativity meets technology. I'm now transitioning into the
             web design space, bringing along my analytical mindset,
@@ -126,7 +126,7 @@ function App() {
           </div>
         </section>
       </BlurFade>
-   
+   </section>
     </>
   );
 }
