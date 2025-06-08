@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-    <section className="mt-12 max-w-2xl mx-auto">
+    
       <BlurFade delay={0.5} inView>
         <section className="mt-12 max-w-2xl mx-auto">
           <div className="flex gap-14 items-center">
@@ -126,7 +126,7 @@ function App() {
           </div>
         </section>
       </BlurFade>
-    </section>
+   
     </>
   );
 }
